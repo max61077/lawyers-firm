@@ -1,0 +1,951 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "speciality": "Criminal Law",
+        "firms": "Justice Law Firm",
+        "address": "123 Main Street, Cityville",
+        "phone": "555-123-4567",
+        "available_days": "Mon, Wed, Fri",
+        "available_slots": [
+            {
+                "id": 1,
+                "title": "Monday",
+                "sub_slots": [
+                    {
+                        "id": 1,
+                        "title": "Morning",
+                        "isBooked": false
+                    },
+                    {
+                        "id": 2,
+                        "title": "Evening",
+                        "isBooked": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Wednesday",
+                "sub_slots": [
+                    {
+                        "id": 1,
+                        "title": "Morning",
+                        "isBooked": false
+                    },
+                    {
+                        "id": 2,
+                        "title": "Evening",
+                        "isBooked": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Friday",
+                "sub_slots": [
+                    {
+                        "id": 1,
+                        "title": "Morning",
+                        "isBooked": false
+                    },
+                    {
+                        "id": 2,
+                        "title": "Evening",
+                        "isBooked": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Jane Smith",
+        "speciality": "Family Law",
+        "firms": "Smith & Associates",
+        "address": "456 Oak Avenue, Townsville",
+        "phone": "555-987-6543",
+        "available_days": "Tue, Thu",
+        "available_slots": [
+            {
+                "id": 1,
+                "title": "Tuesday",
+                "sub_slots": [
+                    {
+                        "id": 1,
+                        "title": "Morning",
+                        "isBooked": false
+                    },
+                    {
+                        "id": 2,
+                        "title": "Evening",
+                        "isBooked": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Thursday",
+                "sub_slots": [
+                    {
+                        "id": 1,
+                        "title": "Morning",
+                        "isBooked": false
+                    },
+                    {
+                        "id": 2,
+                        "title": "Evening",
+                        "isBooked": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Michael Johnson",
+        "speciality": "Corporate Law",
+        "firms": "Johnson Legal Services",
+        "address": "789 Elm Street, Villageland",
+        "phone": "555-567-8901",
+        "available_days": "Mon, Tue, Wed, Thu, Fri",
+        "available_slots": [
+            {
+                "id": 1,
+                "title": "Monday",
+                "sub_slots": [
+                    {
+                        "id": 1,
+                        "title": "Morning",
+                        "isBooked": false
+                    },
+                    {
+                        "id": 2,
+                        "title": "Evening",
+                        "isBooked": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Tuesday",
+                "sub_slots": [
+                    {
+                        "id": 1,
+                        "title": "Morning",
+                        "isBooked": false
+                    },
+                    {
+                        "id": 2,
+                        "title": "Evening",
+                        "isBooked": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Wednesday",
+                "sub_slots": [
+                    {
+                        "id": 1,
+                        "title": "Morning",
+                        "isBooked": false
+                    },
+                    {
+                        "id": 2,
+                        "title": "Evening",
+                        "isBooked": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "title": "Thursday",
+                "sub_slots": [
+                    {
+                        "id": 1,
+                        "title": "Morning",
+                        "isBooked": false
+                    },
+                    {
+                        "id": 2,
+                        "title": "Evening",
+                        "isBooked": false
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "title": "Friday",
+                "sub_slots": [
+                    {
+                        "id": 1,
+                        "title": "Morning",
+                        "isBooked": false
+                    },
+                    {
+                        "id": 2,
+                        "title": "Evening",
+                        "isBooked": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Emily Wilson",
+        "speciality": "Personal Injury Law",
+        "firms": "Wilson Law Group",
+        "address": "321 Maple Road, Countryside",
+        "phone": "555-456-7890",
+        "available_days": "Tue, Thu, Sat",
+        "available_slots": [
+            {
+                "id": 1,
+                "title": "Tuesday",
+                "sub_slots": [
+                    {
+                        "id": 1,
+                        "title": "Morning",
+                        "isBooked": false
+                    },
+                    {
+                        "id": 2,
+                        "title": "Evening",
+                        "isBooked": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Thursday",
+                "sub_slots": [
+                    {
+                        "id": 1,
+                        "title": "Morning",
+                        "isBooked": false
+                    },
+                    {
+                        "id": 2,
+                        "title": "Evening",
+                        "isBooked": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Saturday",
+                "sub_slots": [
+                    {
+                        "id": 1,
+                        "title": "Morning",
+                        "isBooked": false
+                    },
+                    {
+                        "id": 2,
+                        "title": "Evening",
+                        "isBooked": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Robert Lee",
+        "speciality": "Immigration Law",
+        "firms": "Lee Immigration Attorneys",
+        "address": "654 Pine Lane, Mountainside",
+        "phone": "555-234-5678",
+        "available_days": "Mon, Tue, Wed, Thu, Fri",
+        "available_slots": [
+            {
+                "id": 1,
+                "title": "Monday",
+                "sub_slots": [
+                    {
+                        "id": 1,
+                        "title": "Morning",
+                        "isBooked": false
+                    },
+                    {
+                        "id": 2,
+                        "title": "Evening",
+                        "isBooked": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Tuesday",
+                "sub_slots": [
+                    {
+                        "id": 1,
+                        "title": "Morning",
+                        "isBooked": false
+                    },
+                    {
+                        "id": 2,
+                        "title": "Evening",
+                        "isBooked": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Wednesday",
+                "sub_slots": [
+                    {
+                        "id": 1,
+                        "title": "Morning",
+                        "isBooked": false
+                    },
+                    {
+                        "id": 2,
+                        "title": "Evening",
+                        "isBooked": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "title": "Thursday",
+                "sub_slots": [
+                    {
+                        "id": 1,
+                        "title": "Morning",
+                        "isBooked": false
+                    },
+                    {
+                        "id": 2,
+                        "title": "Evening",
+                        "isBooked": false
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "title": "Friday",
+                "sub_slots": [
+                    {
+                        "id": 1,
+                        "title": "Morning",
+                        "isBooked": false
+                    },
+                    {
+                        "id": 2,
+                        "title": "Evening",
+                        "isBooked": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Amy Brown",
+        "speciality": "Real Estate Law",
+        "firms": "Brown & Co. Law Offices",
+        "address": "987 Cedar Avenue, Lakeshore",
+        "phone": "555-678-9012",
+        "available_days": "Wed, Fri",
+        "available_slots": [
+            {
+                "id": 1,
+                "title": "Wednesday",
+                "sub_slots": [
+                    {
+                        "id": 1,
+                        "title": "Morning",
+                        "isBooked": false
+                    },
+                    {
+                        "id": 2,
+                        "title": "Evening",
+                        "isBooked": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Friday",
+                "sub_slots": [
+                    {
+                        "id": 1,
+                        "title": "Morning",
+                        "isBooked": false
+                    },
+                    {
+                        "id": 2,
+                        "title": "Evening",
+                        "isBooked": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "William Clark",
+        "speciality": "Intellectual Property Law",
+        "firms": "Clark & Partners",
+        "address": "543 Birch Street, Riverside",
+        "phone": "555-345-6789",
+        "available_days": "Mon, Wed, Thu",
+        "available_slots": [
+            {
+                "id": 1,
+                "title": "Monday",
+                "sub_slots": [
+                    {
+                        "id": 1,
+                        "title": "Morning",
+                        "isBooked": false
+                    },
+                    {
+                        "id": 2,
+                        "title": "Evening",
+                        "isBooked": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Wednesday",
+                "sub_slots": [
+                    {
+                        "id": 1,
+                        "title": "Morning",
+                        "isBooked": false
+                    },
+                    {
+                        "id": 2,
+                        "title": "Evening",
+                        "isBooked": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Thursday",
+                "sub_slots": [
+                    {
+                        "id": 1,
+                        "title": "Morning",
+                        "isBooked": false
+                    },
+                    {
+                        "id": 2,
+                        "title": "Evening",
+                        "isBooked": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Olivia Anderson",
+        "speciality": "Environmental Law",
+        "firms": "GreenLaw Solutions",
+        "address": "789 Redwood Drive, Hillside",
+        "phone": "555-890-1234",
+        "available_days": "Tue, Thu",
+        "available_slots": [
+            {
+                "id": 1,
+                "title": "Tuesday",
+                "sub_slots": [
+                    {
+                        "id": 1,
+                        "title": "Morning",
+                        "isBooked": false
+                    },
+                    {
+                        "id": 2,
+                        "title": "Evening",
+                        "isBooked": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Thursday",
+                "sub_slots": [
+                    {
+                        "id": 1,
+                        "title": "Morning",
+                        "isBooked": false
+                    },
+                    {
+                        "id": 2,
+                        "title": "Evening",
+                        "isBooked": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Daniel Wilson",
+        "speciality": "Labor Law",
+        "firms": "Workers' Rights Legal",
+        "address": "654 Rose Avenue, Meadowland",
+        "phone": "555-567-8901",
+        "available_days": "Mon, Tue, Wed, Thu, Fri",
+        "available_slots": [
+            {
+                "id": 1,
+                "title": "Monday",
+                "sub_slots": [
+                    {
+                        "id": 1,
+                        "title": "Morning",
+                        "isBooked": false
+                    },
+                    {
+                        "id": 2,
+                        "title": "Evening",
+                        "isBooked": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Tuesday",
+                "sub_slots": [
+                    {
+                        "id": 1,
+                        "title": "Morning",
+                        "isBooked": false
+                    },
+                    {
+                        "id": 2,
+                        "title": "Evening",
+                        "isBooked": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Wednesday",
+                "sub_slots": [
+                    {
+                        "id": 1,
+                        "title": "Morning",
+                        "isBooked": false
+                    },
+                    {
+                        "id": 2,
+                        "title": "Evening",
+                        "isBooked": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "title": "Thursday",
+                "sub_slots": [
+                    {
+                        "id": 1,
+                        "title": "Morning",
+                        "isBooked": false
+                    },
+                    {
+                        "id": 2,
+                        "title": "Evening",
+                        "isBooked": false
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "title": "Friday",
+                "sub_slots": [
+                    {
+                        "id": 1,
+                        "title": "Morning",
+                        "isBooked": false
+                    },
+                    {
+                        "id": 2,
+                        "title": "Evening",
+                        "isBooked": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Sophia Martinez",
+        "speciality": "Estate Planning",
+        "firms": "Martinez & Co. Law Firm",
+        "address": "321 Sunflower Street, Sunnyville",
+        "phone": "555-234-5678",
+        "available_days": "Mon, Tue, Wed, Thu",
+        "available_slots": [
+            {
+                "id": 1,
+                "title": "Monday",
+                "sub_slots": [
+                    {
+                        "id": 1,
+                        "title": "Morning",
+                        "isBooked": false
+                    },
+                    {
+                        "id": 2,
+                        "title": "Evening",
+                        "isBooked": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Tuesday",
+                "sub_slots": [
+                    {
+                        "id": 1,
+                        "title": "Morning",
+                        "isBooked": false
+                    },
+                    {
+                        "id": 2,
+                        "title": "Evening",
+                        "isBooked": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Wednesday",
+                "sub_slots": [
+                    {
+                        "id": 1,
+                        "title": "Morning",
+                        "isBooked": false
+                    },
+                    {
+                        "id": 2,
+                        "title": "Evening",
+                        "isBooked": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "title": "Thursday",
+                "sub_slots": [
+                    {
+                        "id": 1,
+                        "title": "Morning",
+                        "isBooked": false
+                    },
+                    {
+                        "id": 2,
+                        "title": "Evening",
+                        "isBooked": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Dwane Smith",
+        "speciality": "Family Law",
+        "firms": "Smith & Associates",
+        "address": "456 Oak Avenue, Townsville",
+        "phone": "555-987-6543",
+        "available_days": "Tue, Thu",
+        "available_slots": [
+            {
+                "id": 1,
+                "title": "Tuesday",
+                "sub_slots": [
+                    {
+                        "id": 1,
+                        "title": "Morning",
+                        "isBooked": false
+                    },
+                    {
+                        "id": 2,
+                        "title": "Evening",
+                        "isBooked": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Thursday",
+                "sub_slots": [
+                    {
+                        "id": 1,
+                        "title": "Morning",
+                        "isBooked": false
+                    },
+                    {
+                        "id": 2,
+                        "title": "Evening",
+                        "isBooked": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Michael Anderson",
+        "speciality": "Environmental Law",
+        "firms": "GreenLaw Solutions",
+        "address": "789 Redwood Drive, Hillside",
+        "phone": "555-890-1234",
+        "available_days": "Tue, Thu",
+        "available_slots": [
+            {
+                "id": 1,
+                "title": "Tuesday",
+                "sub_slots": [
+                    {
+                        "id": 1,
+                        "title": "Morning",
+                        "isBooked": false
+                    },
+                    {
+                        "id": 2,
+                        "title": "Evening",
+                        "isBooked": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Thursday",
+                "sub_slots": [
+                    {
+                        "id": 1,
+                        "title": "Morning",
+                        "isBooked": false
+                    },
+                    {
+                        "id": 2,
+                        "title": "Evening",
+                        "isBooked": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Brett Lee",
+        "speciality": "Immigration Law",
+        "firms": "Lee Immigration Attorneys",
+        "address": "654 Pine Lane, Mountainside",
+        "phone": "555-234-5678",
+        "available_days": "Mon, Tue, Wed, Thu, Fri",
+        "available_slots": [
+            {
+                "id": 1,
+                "title": "Monday",
+                "sub_slots": [
+                    {
+                        "id": 1,
+                        "title": "Morning",
+                        "isBooked": false
+                    },
+                    {
+                        "id": 2,
+                        "title": "Evening",
+                        "isBooked": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Tuesday",
+                "sub_slots": [
+                    {
+                        "id": 1,
+                        "title": "Morning",
+                        "isBooked": false
+                    },
+                    {
+                        "id": 2,
+                        "title": "Evening",
+                        "isBooked": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Wednesday",
+                "sub_slots": [
+                    {
+                        "id": 1,
+                        "title": "Morning",
+                        "isBooked": false
+                    },
+                    {
+                        "id": 2,
+                        "title": "Evening",
+                        "isBooked": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "title": "Thursday",
+                "sub_slots": [
+                    {
+                        "id": 1,
+                        "title": "Morning",
+                        "isBooked": false
+                    },
+                    {
+                        "id": 2,
+                        "title": "Evening",
+                        "isBooked": false
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "title": "Friday",
+                "sub_slots": [
+                    {
+                        "id": 1,
+                        "title": "Morning",
+                        "isBooked": false
+                    },
+                    {
+                        "id": 2,
+                        "title": "Evening",
+                        "isBooked": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "name": "George Wilson",
+        "speciality": "Personal Injury Law",
+        "firms": "Wilson Law Group",
+        "address": "321 Maple Road, Countryside",
+        "phone": "555-456-7890",
+        "available_days": "Tue, Thu, Sat",
+        "available_slots": [
+            {
+                "id": 1,
+                "title": "Tuesday",
+                "sub_slots": [
+                    {
+                        "id": 1,
+                        "title": "Morning",
+                        "isBooked": false
+                    },
+                    {
+                        "id": 2,
+                        "title": "Evening",
+                        "isBooked": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Thursday",
+                "sub_slots": [
+                    {
+                        "id": 1,
+                        "title": "Morning",
+                        "isBooked": false
+                    },
+                    {
+                        "id": 2,
+                        "title": "Evening",
+                        "isBooked": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Saturday",
+                "sub_slots": [
+                    {
+                        "id": 1,
+                        "title": "Morning",
+                        "isBooked": false
+                    },
+                    {
+                        "id": 2,
+                        "title": "Evening",
+                        "isBooked": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Michael Clark",
+        "speciality": "Intellectual Property Law",
+        "firms": "Clark & Partners",
+        "address": "543 Birch Street, Riverside",
+        "phone": "555-345-6789",
+        "available_days": "Mon, Wed, Thu",
+        "available_slots": [
+            {
+                "id": 1,
+                "title": "Monday",
+                "sub_slots": [
+                    {
+                        "id": 1,
+                        "title": "Morning",
+                        "isBooked": false
+                    },
+                    {
+                        "id": 2,
+                        "title": "Evening",
+                        "isBooked": false
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Wednesday",
+                "sub_slots": [
+                    {
+                        "id": 1,
+                        "title": "Morning",
+                        "isBooked": false
+                    },
+                    {
+                        "id": 2,
+                        "title": "Evening",
+                        "isBooked": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Thursday",
+                "sub_slots": [
+                    {
+                        "id": 1,
+                        "title": "Morning",
+                        "isBooked": false
+                    },
+                    {
+                        "id": 2,
+                        "title": "Evening",
+                        "isBooked": false
+                    }
+                ]
+            }
+        ]
+    }
+]
