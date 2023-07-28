@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
     toast: {
-        show: true,
+        show: false,
         msg: 'Success',
         type: 'success',
         duration: 5000
